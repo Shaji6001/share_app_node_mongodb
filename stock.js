@@ -27,7 +27,7 @@ apps.post('/addshare', async (req,res)=>{
 })
 
 
-apps.get('/viewshare', async(req,res)=>{
+apps.get('/viewall', async(req,res)=>{
     try
     {
         var result=await shareModel.find().exec();
